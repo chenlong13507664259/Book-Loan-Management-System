@@ -78,7 +78,7 @@
 
 ## 部署说明
 
-1. 确保已安装JDK 8、Tomcat 8+、MySQL 5.7+
+1. 确保已安装JDK 8、Tomcat 8+、MySQL 5.5+
 2. 创建数据库并执行 [library.sql](library.sql) 脚本
 3. 修改数据库配置文件 [db.properties](src/main/resources/db.properties)
 4. 使用Maven编译打包：`mvn clean package`
